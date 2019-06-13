@@ -1,0 +1,54 @@
+{
+  "name": "toms-journey-in-web-development",
+  "description": "Toms journey in web development",
+  "version": "1.0.0",
+  "author": "Thomas Heller <office@thomasheller.net>",
+  "dependencies": {
+    "compass-vertical-rhythm": "^1.4.5",
+    "dateformat": "^3.0.3",
+    "gatsby": "^2.0.19",
+    "gatsby-image": "^2.0.15",
+    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-offline": "^2.0.11",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-source-filesystem": "^2.0.4",
+    "gatsby-source-storyblok": "^0.2.3",
+    "gatsby-transformer-sharp": "^2.1.4",
+    "gray-percentage": "^2.0.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-highlightjs": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.19",
+    "storyblok-react": "0.0.6",
+    "typography": "^0.16.19",
+    "typography-breakpoint-constants": "^0.16.19"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
