@@ -6,7 +6,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-storyblok',
       options: {
-        accessToken: process.env.NODE_ENV === 'production' ? process.env.SB_ACCESSKEY : import('./env').accessToken,
+        // eslint-disable-next-line global-require
+        accessToken: process.env.NODE_ENV === 'production' ? process.env.SB_ACCESSKEY : require('./env').accesstoken,
         homeSlug: 'home',
         version: process.env.NODE_ENV === 'production' ? 'published' : 'draft',
       },
